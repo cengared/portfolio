@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link href="http://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css"/>
+		<meta name="description" content="portfolio" />
+        <meta name="author" content="Daniel Stokoe" />
+		<title>Daniel Stokoe - Report</title>
+	</head>
+	<body>
+	<div class="container">
+		<a name="Top"></a>
+		<div id="header">
+			<h1>Large Coursework Report</h1>
+		</div>
+		<div id="nav">
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="goldsmiths.html">Goldsmiths</a></li>
+			<li><a href="teesside.html">Teesside</a></li>
+			<li><a href="report.html">Report</a></li>
+			</ul>
+		</div>
+		<div id="text">
+			<p>
+			This is the report section of this site for use in the assessment.
+			</p>
+			<p>
+			I just wanted to make a simple site, with links to work I have done at the universities 
+			I have attended. I wanted it to have a dark background with lighter text so after looking 
+			online for a background I chose this one at	<a href="http://www.backgroundlabs.com/item/geometric-tiles-pattern/">backgroundlabs.com</a>
+			</p>
+			<p>
+			For the structure of the site, I quickly made the pages I needed with little content but 
+			having the same design for each page. The head element contains meta tags for site description 
+			& author name as well as links to a style sheet and a font I like from Google Fonts. I split 
+			the body into several divs which are used on all pages - the header div which controls the page's 
+			heading (using the linked Google Font), the nav div which holds the main navigation bar which is 
+			the same for all pages and the text div makes handling the text over the whole site much easier.
+			</p>
+			<p>
+			Once I had the structure in place with a little bit of temporary content for use as a visual aid 
+			I started on creating the main CSS page for the site. This style sheet handles the different font 
+			settings for different parts of a page as well as controlling the display of the horizontal navigation 
+			bar. Initially I was going to have a page for picking a university to view work from but felt it 
+			would be better if both universities have their own page accessible from the menu bar.
+			</p>
+			<p>
+			For each of the university pages I needed a sub menu to cover the different options available on 
+			each page. I decided to make this a vertical menu, the display of which is all handled by the main 
+			CSS file. I made a button like background for a link with a slightly smaller one with a different 
+			coloured border for when the mouse is hovering over the link. One of the pages for my university 
+			work has a lot of screenshots and so to display them in a pleasing manner I used CSS that Karsten 
+			Seipp showed us during the 7th web programming lecture as a basis then modified it to meet my needs. 
+			As this CSS is only used by one page I put it in it’s own file and had the link to it added to just 
+			the page it was made for.
+			</p>
+			<p>
+			The next step was to make more style sheets for different browser sizes. Small browsers like on 
+			smart phones need bigger text and link buttons, plus the horizontal menu I’ve got doesn’t resize 
+			as well as I would like but I can step down the size of it for different browser sizes. Using a 
+			combination of viewport in the HTML to get the device width and the @media tag in CSS to have specific 
+			style rules dependent on the device size I was able to get the site to display well through different 
+			browsers and on different screen sizes.
+			</p>
+			<div id="subNav">
+				<ul>
+				<li><a href="#"><span>Links to my references:</span></a></li>
+				<li><a href="http://w3schools.com/" target="_blank"><span>General HTML & CSS help</span></a></li>
+				<li><a href="http://www.cssnewbie.com/full-width-centered-navigation-bar/" target="_blank"><span>Hortizontal menu bar help</span></a></li>
+				<li><a href="http://www.backgroundlabs.com/item/geometric-tiles-pattern/" target="_blank"><span>Background source</span></a></li>
+				<li><a href="http://cssmenumaker.com/menu/grey-hat" target="_blank"><span>Vertical menu help</span></a></li>
+				<li><a href="https://learn.gold.ac.uk/course/view.php?id=2494" target="_blank"><span>Screenshots page help</span></a></li>
+				<li><a href="http://classroom.emediate.com/doku.php/inspiration:tools:ie_tester:start" target="_blank"><span>Testing previous IE versions</span></a></li>
+				<li><a href="http://mobiletest.me/" target="_blank"><span>Testing mobile versions</span></a></li>
+				<li><a href="#Top"><span>Go to top of page</span></a></li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
